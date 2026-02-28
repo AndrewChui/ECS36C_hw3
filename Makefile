@@ -1,7 +1,7 @@
 CC=g++
 DEV=-Wall -g -std=c++14
 OPT=-O3 -std=c++14
-FLAGS=$(DEV) -I .
+FLAGS=$(DEV) -I /Users/andrewchui/Documents/ECS36C_hw3
 JSON=json.hpp
 
 all: buildheap.exe createteams.exe createteamdata.exe createheapoperationdata.exe
